@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingColor</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <h1 id="saluto">Oggi è un bel giorno</h1>
+    </div>
+    
+    <div id="title">
+        <h1>CodingColor</h1>
+        <label for="inNumber">Inserisci il codice di un colore: </label>
+        <input id="inNumber" placeholder="Es. 255.0.50" type="text"/>
+        <label for="inText">Inserisci il testo: </label>
+        <input id="inText" placeholder="Es. Ciao Mondo!" type="text"/>
+
+        <button type="button" id="btnElabora" onclick="elabora()">Elabora</button>
+        <button type="button" id="btnAnnulla" onclick="annulla()">Annulla</button>
+    </div>
+
+    <div id="output">
+        <p id="outText">Output</p>
+    </div>
+
+    <div id="error">
+        <p id="errText">Errori</p> 
+    </div>
+</body>
+</html>
